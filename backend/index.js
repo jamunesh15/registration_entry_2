@@ -5,7 +5,7 @@ require("dotenv").config();
 const app = express();
 
 app.use(cors({
-  origin: "http://localhost:5175", // Your frontend URL
+  origin: "https://registration-entry-2-ui1.onrender.com", // Your frontend URL
   credentials: true,
 }));  
 
