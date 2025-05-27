@@ -5,7 +5,7 @@ import App from './App.jsx'
 import { BrowserRouter } from "react-router-dom";
 
 
-export const serverUrl="http://localhost:4000/api/v1"
+export const serverUrl="https://registration-entry-2-api1.onrender.com/api/v1"
 createRoot(document.getElementById('root')).render(
     <BrowserRouter>
     <App />
